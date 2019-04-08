@@ -1,6 +1,6 @@
 Welcome to the home of the China Siqing Social Class Dataset (CSSCD) series codebase. Current owner-collaborators are:
-- Matthew Noellert, University of Iowa
-- Li Xiangning, HKUST
+  - Matthew Noellert, University of Iowa
+  - Li Xiangning, HKUST
 
 Organization:
 /core contains the .do files that are used to generate the dataset.
@@ -20,4 +20,6 @@ Example workflows:
   - Edit the .do file on your local machine, as you normally would.
   - Open GitHub Desktop. It will automatically display all the changes you have made to all files in /CSSCD since the last time you synced.
   - Click on the "Current branch" tab, and type in a name for your version, then click "new branch". E.g. if I am editing the income variable coding in the text processing .do file, I would call my branch, "text processing income code".
-  - In the lower left panel, add a brief description of the changes you are making, e.g. "add new conditions for monthly incomes". Then click the blue "Commit to [branch name]" button.
+  - In the lower left panel, add a brief summary and description of the changes you are making, e.g. "add new conditions for monthly incomes". Then click the blue "Commit to [branch name]" button. This saves your changes to your version (branch) of the codebase, without changing the master version on github.com.
+  - Now you can either publish your new branch, or "push" your changes on an existing branch to the "origin" github.com repository. In both cases, this updates the information on the github.com repository, i.e. shares your changes with whoever else is collaborating on the repository. NOTE: At this point your changes still exist as an independent version.
+  - 
