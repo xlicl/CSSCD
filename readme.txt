@@ -20,4 +20,5 @@ Example workflows:
   - Edit the .do file on your local machine, as you normally would.
   - Open GitHub Desktop. It will automatically display all the changes you have made to all files in /CSSCD since the last time you synced.
   - Click on the "Current branch" tab, and type in a name for your version, then click "new branch". E.g. if I am editing the income variable coding in the text processing .do file, I would call my branch, "text processing income code".
-  - In the lower left panel, add a brief description of the changes you are making, e.g. "add new conditions for monthly incomes". Then click the blue "Commit to [branch name]" button.
+  - In the lower left panel, add a brief summary and description of the changes you are making, e.g. "add new conditions for monthly incomes". Then click the blue "Commit to [branch name]" button. This saves your changes to your version (branch) of the codebase, without changing the master version on github.com.
+  - 
