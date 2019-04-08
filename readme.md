@@ -7,7 +7,7 @@ Current owner-collaborators are:
 /core contains the .do files that are used to generate the dataset.  
 /analysis contains the .do files of individual research projects and papers.
 
-The raw data is stored on a shared HKUST OneDrive folder, /Xiangning LI - CSSCD.
+The raw data is stored on a shared HKUST OneDrive folder.
 
 ## Example workflows
 
