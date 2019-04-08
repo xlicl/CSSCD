@@ -1,4 +1,6 @@
-# Welcome to the home of the China Siqing Social Class Dataset (CSSCD) series codebase. Current owner-collaborators are:
+# Welcome to the home of the China Siqing Social Class Dataset (CSSCD) series codebase.
+
+Current owner-collaborators are:
   - Matthew Noellert, University of Iowa
   - Li Xiangning, HKUST
 
@@ -22,4 +24,6 @@ The raw data is stored on a shared HKUST OneDrive folder, /Xiangning LI - CSSCD.
   - Click on the "Current branch" tab, and type in a name for your version, then click "new branch". E.g. if I am editing the income variable coding in the text processing .do file, I would call my branch, "text processing income code" (You do not need to include your name, because GitHub keeps track of who does what). DO NOT use the master branch.
   - In the lower left panel, add a brief summary and description of the changes you are making, e.g. "add new conditions for monthly incomes". Then click the blue "Commit to [branch name]" button. This saves your changes to your version (branch) of the codebase, without changing the master version on github.com.
   - Now you can either publish your new branch, or "push" your changes on an existing branch to the "origin" github.com repository. In both cases, this updates the information on the github.com repository, i.e. shares your changes with whoever else is collaborating on the repository. NOTE: At this point your changes still exist as an independent version, all you have done now is made them visible to your collaborators.
-  - Once you have finished your current task (in this example revising the text processing income code) and made sure it runs ok in Stata, you can merge your version into the master version. To accomplish this, 
+  - Once you have finished your current task (in this example revising the text processing income code) and made sure it runs ok in Stata, you can merge your changes (branch) into the master version. To accomplish this, in GitHub desktop go to Branch\Create pull request (ctrl-R), which will open up the github.com repository and take you to "Open a pull request". Here you can review conflicts, if any, add more description of what your changes do, add people who you want to review or check your changes, etc. When you are ready, click the green "Create pull request" button. If github can handle the merge itself, then you can click the new green "Merge pull request button", then "Confirm merge". Now you have merged your changes into the master version of the file(s), and your branch is redundant, so you can delete your branch with the "Delete branch" button that should appear once the merge is successful.
+  - Regularly click the "Fetch origin" tab in GitHub Desktop. This syncs your local files with the online files and ensures you have the most recent versions.
+
