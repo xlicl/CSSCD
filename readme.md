@@ -35,5 +35,5 @@ The raw data is stored on a shared HKUST OneDrive folder.
   7. This completes your complicated revision, which now exists in the project history as a separate branch, like a sub-project.
 
 ### 4. Issue reporting
-  1. When you find a coding error or problem in any of the core files or raw data, report it! Go to https://github.com/noellert/CSSCD, click on the "Issues" tab, and add a new issue describing the problem, it's location and type, what project or goal it is associated with, and who should care about it. Then click the green "Submit new issue" button to post it.
-  2. If you cannot continue your work without resolving the issue, then after you post it, resolve it yourself. Otherwise save it for later or for someone else to do.
+  1. Bug: When you find a coding error or problem in any of the core files or raw data, report it! Go to https://github.com/noellert/CSSCD, click on the "Issues" tab, and add a new issue describing the problem, it's location and type, what project or goal it is associated with, and who should care about it. Label it as a "bug". Then click the green "Submit new issue" button to post it. If you cannot continue your work without resolving the issue, then after you post it, resolve it yourself. Otherwise save it for later or for someone else to do.
+  2. Enhancement, question, etc.: You can also post ideas for improvements or revisions, questions, etc. under issues. Just use the appropriate labels provided to categorize your post.
